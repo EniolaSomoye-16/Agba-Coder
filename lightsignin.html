@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="body copy.css">
+    </head>
+    <body>
+            <div id="sign">
+                
+                <h1>Sign in</h1>
+                <form id="form" action="#">
+                    <h4>username</h4>
+                    <input class="input" type="text" placeholder="your username" name="username" required>
+                    <h4>password</h4>
+                    <div class="pass-div">
+                        <input id="myInput" class="inputp" type="password" placeholder="your password" name="password" required>
+                        <div class="show"><input type="checkbox" onclick="myFunction()" placeholder="show password">Show Password</div>
+                    </div>
+                    <input class="submit" value="Sign In" type="button">
+                </form>
+                
+
+                <span class="text">don't have an account?, <a href="lightsignup.html">create one.</a></span>
+            </div>
+            <marquee class="scroll"  loop="-1" scrollamount="5" width="80%">
+                powered by <img id="head" src="head.png">
+            </marquee>
+             
+            <div class="mode">
+                <a href="page.html"><img src="day-and-night.png" alt=""></a>
+            </div>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myInput");
+                    if (x.type === "password") {
+                        x.type = "text";
+                    } else {
+                        x.type = "password";
+                    }
+                }
+            </script>
+    </body>
+</html>

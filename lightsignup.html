@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="body copy.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+           <div id="sign">
+                
+                <h1>Sign up</h1>
+                <form id="form" action="#">
+                    <div class="namediv">   
+                        <input class="inputn" type="text" placeholder="your First name" name="First name" required>
+                        <input class="inputn" type="text" placeholder="your Last name" name="Last name" required>
+                    </div>
+                    <h4>E-mail</h4>    
+                    <input class="input" type="email" placeholder="your E-mail" name="E-mail" required>
+                    <div class="pass-div">
+                        <input id="myInput" class="inputp" type="password" placeholder="your password" name="password" required>
+                        <div class="show"><input type="checkbox" onclick="myFunction()" placeholder="show password">Show Password</div>
+                    </div>
+                    <div class="pass-div">
+                        <input id="myInput2" class="inputp2" type="password" placeholder="confirm password" name="password" required>
+                        <div class="show"><input type="checkbox" onclick="myFunction2()" placeholder="show password">Show Password</div>
+                    </div>
+        
+                                      
+                </form>
+                
+                <!-- <a class="google-link" href="#"><div class="google">
+                    <div>
+                        <img src="google.png" alt="this was supposed to be the google login">
+                    </div>
+                    <span>Google</span>
+                </div></a> -->
+                <span class = 'text'>already have an account?, <a href="page.html">sign in.</a></span>
+            </div>
+            <marquee class="scroll"  loop="-1" scrollamount="5" width="80%">
+                powered by <img id="head" src="head.png">
+            </marquee>
+            <div class="mode">
+                <a href="signup.html"><img src="day-and-night.png" alt=""></a>
+            </div>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myInput");
+                    if (x.type === "password") {
+                        x.type = "text";
+                    } else {
+                        x.type = "password";
+                    }
+                }
+                function myFunction2() {
+                    var x = document.getElementById("myInput2");
+                    if (x.type === "password") {
+                        x.type = "text";
+                    } else {
+                        x.type = "password";
+                    }
+                }
+            </script>            
+    </body>
+</html>
+
