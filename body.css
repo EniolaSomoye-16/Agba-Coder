@@ -1,5 +1,5 @@
 body{
-    background-image: url("darkmode.png");
+    background-image: url("/images/darkmode.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: #EF4136;
@@ -102,7 +102,7 @@ body{
 }
 
 .input{
-    width: 80%;
+    width: 72%;
     height: 30px;
     border-radius: 15px;
     color: black;
@@ -110,8 +110,8 @@ body{
     outline: none;
     margin-bottom: 20px;
     border: 1px solid black;
-    padding-left: 20px;
-    margin-left: 7.5%;
+    padding-left: 10px;
+    margin-left: 6%;
 }
 
 .input:hover{
@@ -129,7 +129,7 @@ body{
     margin-bottom: 20px;
     border: 1px solid black;
     padding-left: 20px;
-    margin-left: 7.5%;
+    margin-left: 6%;
 }
 
 .inputp:hover{
@@ -147,7 +147,7 @@ body{
     margin-bottom: 20px;
     border: 1px solid black;
     padding-left: 20px;
-    margin-left: 7.5%;
+    margin-left: 6%;
 }
 
 .inputp2:hover{
@@ -162,7 +162,7 @@ body{
 }
 
 .inputn{
-    width: 42.5%;
+    width: 80%;
     height: 30px;
     border-radius: 15px;
     color: black;
